@@ -1,0 +1,4 @@
+{
+    "cmd": ["sqlplus", "kyle/password", "@$file"],
+    "selector": "source.sql"
+}
