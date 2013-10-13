@@ -11,19 +11,19 @@ DROP TABLE IF EXISTS Assign;
 -- CREATE TABLE statements here
 
 INSERT INTO Flight (Flight_Num, Source_City, Dest_City, Dep_Time, Arr_Time, Airfare) VALUES
-  (101,'Montreal', 'NY', 0530, 0645, 180), 
-  (102, 'Montreal', 'Washington', 0100, 0235, 100), 
-  (103, 'NY', 'Chicago', 0800, 1000, 150), 
-  (105, 'Washington', 'Kansas-City', 0600, 0845, 200), 
-  (106, 'Washington', 'NY', 1200, 1330, 50), 
-  (107, 'Chicago', 'SLC', 1100, 1430, 220), 
-  (110, 'Kansas-City', 'Denver', 1400, 1525, 180), 
-  (111, 'Kansas-City', 'SLC', 1300, 1530, 200), 
-  (112, 'SLC', 'SanFran', 1800, 1930, 85), 
-  (113, 'SLC', 'LA', 1730, 1900, 185), 
-  (115, 'Denver', 'SLC', 1500, 1600, 75), 
-  (116, 'SanFran', 'LA', 2200, 2230, 50), 
-  (118, 'LA', 'Seattle', 2000, 2100, 150);
+(101, 'Montreal', 'NY', '0530', '0645', 180), 
+(102, 'Montreal', 'Washington', '0100', '0235', 100), 
+(103, 'NY', 'Chicago', '0800', '1000', 150), 
+(105, 'Washington', 'Kansas-City', '0600', '0845', 200), 
+(106, 'Washington', 'NY', '1200', '1330', 50), 
+(107, 'Chicago', 'SLC', '1100', '1430', 220), 
+(110, 'Kansas-City', 'Denver', '1400', '1525', 180), 
+(111, 'Kansas-City', 'SLC', '1300', '1530', 200), 
+(112, 'SLC', 'SanFran', '1800', '1930', 85), 
+(113, 'SLC', 'LA', '1730', '1900', 185), 
+(115, 'Denver', 'SLC', '1500', '1600', 75), 
+(116, 'SanFran', 'LA', '2200', '2230', 50), 
+(118, 'LA', 'Seattle', '2000', '2100', 150);
  
 INSERT INTO Crew (Id, Name, Salary, Position, Seniority, Fly_Hours, Mgrid) VALUES
   (01, 'John Smith', 500000, 'Pilot', 15, 3000, Null),

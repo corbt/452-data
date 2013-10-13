@@ -8,19 +8,19 @@ DROP TABLE Assign;
  -- CREATE TABLE statements go here
 
 INSERT ALL 
-  INTO Flight VALUES (101,'Montreal', 'NY', 0530, 0645, 180) 
-  INTO Flight VALUES (102, 'Montreal', 'Washington', 0100, 0235, 100) 
-  INTO Flight VALUES (103, 'NY', 'Chicago', 0800, 1000, 150) 
-  INTO Flight VALUES (105, 'Washington', 'Kansas-City', 0600, 0845, 200) 
-  INTO Flight VALUES (106, 'Washington', 'NY', 1200, 1330, 50) 
-  INTO Flight VALUES (107, 'Chicago', 'SLC', 1100, 1430, 220) 
-  INTO Flight VALUES (110, 'Kansas-City', 'Denver', 1400, 1525, 180) 
-  INTO Flight VALUES (111, 'Kansas-City', 'SLC', 1300, 1530, 200) 
-  INTO Flight VALUES (112, 'SLC', 'SanFran', 1800, 1930, 85) 
-  INTO Flight VALUES (113, 'SLC', 'LA', 1730, 1900, 185) 
-  INTO Flight VALUES (115, 'Denver', 'SLC', 1500, 1600, 75) 
-  INTO Flight VALUES (116, 'SanFran', 'LA', 2200, 2230, 50) 
-  INTO Flight VALUES (118, 'LA', 'Seattle', 2000, 2100, 150)
+  INTO Flight VALUES (101,'Montreal', 'NY', '0530', '0645', 180) 
+  INTO Flight VALUES (102, 'Montreal', 'Washington', '0100', '0235', 100) 
+  INTO Flight VALUES (103, 'NY', 'Chicago', '0800', '1000', 150) 
+  INTO Flight VALUES (105, 'Washington', 'Kansas-City', '0600', '0845', 200) 
+  INTO Flight VALUES (106, 'Washington', 'NY', '1200', '1330', 50) 
+  INTO Flight VALUES (107, 'Chicago', 'SLC', '1100', '1430', 220) 
+  INTO Flight VALUES (110, 'Kansas-City', 'Denver', '1400', '1525', 180) 
+  INTO Flight VALUES (111, 'Kansas-City', 'SLC', '1300', '1530', 200) 
+  INTO Flight VALUES (112, 'SLC', 'SanFran', '1800', '1930', 85) 
+  INTO Flight VALUES (113, 'SLC', 'LA', '1730', '1900', 185) 
+  INTO Flight VALUES (115, 'Denver', 'SLC', '1500', '1600', 75) 
+  INTO Flight VALUES (116, 'SanFran', 'LA', '2200', '2230', 50) 
+  INTO Flight VALUES (118, 'LA', 'Seattle', '2000', '2100', 150)
 SELECT 1 FROM DUAL;
  
 INSERT ALL
