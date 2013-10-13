@@ -31,7 +31,7 @@ INSERT INTO Crew (Id, Name, Salary, Position, Seniority, Fly_Hours, Mgrid) VALUE
   (03, 'Bill Talbot', 300000, 'Pilot', 12, 2500, 01),
   (11, 'Steve Lowe', 250000, 'Co-pilot', 10, 2000, 02),
   (12, 'John Crowe', 200000, 'Co-pilot', 9, 800, 03),
-  (13, 'Mike York', 150000, 'Co-Pilot', 8, 650, 02),
+  (13, 'Mike York', 150000, 'Co-pilot', 8, 650, 02),
   (21, 'Sam Carson', 100000, 'Engineer', 12, 2400, 11),
   (22, 'Joe Young', 180000, 'Chief Engg', 9, 0, 11),
   (10, 'Dave Empire', 80000, 'Engineer', 2, 300, 22),

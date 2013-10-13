@@ -29,7 +29,7 @@ INSERT ALL
   INTO Crew VALUES (03, 'Bill Talbot', 300000, 'Pilot', 12, 2500, 01)
   INTO Crew VALUES (11, 'Steve Lowe', 250000, 'Co-pilot', 10, 2000, 02)
   INTO Crew VALUES (12, 'John Crowe', 200000, 'Co-pilot', 9, 800, 03)
-  INTO Crew VALUES (13, 'Mike York', 150000, 'Co-Pilot', 8, 650, 02)
+  INTO Crew VALUES (13, 'Mike York', 150000, 'Co-pilot', 8, 650, 02)
   INTO Crew VALUES (21, 'Sam Carson', 100000, 'Engineer', 12, 2400, 11)
   INTO Crew VALUES (22, 'Joe Young', 180000, 'Chief Engg', 9, 0, 11)
   INTO Crew VALUES (10, 'Dave Empire', 80000, 'Engineer', 2, 300, 22)
